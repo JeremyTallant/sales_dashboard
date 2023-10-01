@@ -1,4 +1,5 @@
 # sales_dashboard
 # Data Analyst's Project Lifecycle
-<object data="flowchart.svg" type="image/svg+xml"></object>
+| :arrow_left: | Text Here | :arrow_right: |
+|--------------|-----------|---------------|
 
