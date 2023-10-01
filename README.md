@@ -1,4 +1,3 @@
 # sales_dashboard
 # Data Analyst's Project Lifecycle
-Data Check ->
-
+Data Check ➡️ Explore Data
