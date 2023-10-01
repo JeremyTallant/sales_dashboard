@@ -4,7 +4,7 @@ This project aims to provide an in-depth analysis and visualization of an online
 ## Data Source
 This dataset is sourced from the UCI Machine Learning Repository.
 Citation:
-[Online Retail. (2015). UCI Machine Learning Repository.](https://doi.org/10.24432/C5BW33)
+<a href="https://doi.org/10.24432/C5BW33" target="_blank">Online Retail. (2015). UCI Machine Learning Repository.</a>
 ## Project Lifecycle
 
 Our analytical journey will traverse through a well-defined process comprising of the following key steps:
