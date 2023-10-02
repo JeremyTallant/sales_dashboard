@@ -3,7 +3,7 @@
 This project aims to provide an in-depth analysis and visualization of an online retail sales dataset. The dataset includes transactions from December 1, 2010, to December 9, 2011, for a UK-based and registered non-store online retail company. Specializing in unique all-occasion gifts, the company's client base is predominantly wholesalers. A key part of this analysis involves creating an interactive dashboard to visualize key metrics and effectively communicate insights.
 ## Data
 
-This dataset contains 541,909 instances.
+This dataset contains 541,909 observations.
 
 | Variable Name | Type        | Description                                                                                   |
 |---------------|-------------|-----------------------------------------------------------------------------------------------|
