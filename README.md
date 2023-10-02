@@ -33,7 +33,7 @@ Upon initial examination, 5,268 duplicate values were identified and removed, re
 
 ![image](images/missing_values.png)
 
-In our dataset, we've identified missing values in the 'Description' column and the CustomerId column. To remove these, we'll first uncheck the 'Select All' box, and then specifically check the box for 'Blanks.' After clicking 'OK,' we will see rows with missing values displayed. We'll select these rows and proceed to delete them.
+In our dataset, we've identified missing values in the 'Description' column and the CustomerID column. To remove these, we'll first uncheck the 'Select All' box, and then specifically check the box for 'Blanks.' After clicking 'OK,' we will see rows with missing values displayed. We'll select these rows and proceed to delete them.
 
 ![image](images/unknown_product_name.png)
 
