@@ -23,17 +23,17 @@ Citation:
 
 Our analytical journey will traverse through a well-defined process comprising of the following key steps:
 
-`Data Check` → Explore Data → Analyze and Visualize Data → Dashboarding → Communicate Insights
+`Data Check` → `Explore Data` → `Analyze & Visualize Data` → `Dashboarding` → `Communicate Insights`
 ### Data Check
-The first step in the process involves checking for duplicates. To do this, highlight all the data, then navigate to the "Data" tab in the menu bar and select the "Remove Duplicates" option.
+The first step in the process involves checking for duplicates. To do this, highlight all the data, then navigate to the `Data` tab in the menu bar and select the `Remove Duplicates` option.
 
 ![image](images/duplicates.png)
 
-Upon initial examination, 5,268 duplicate values were identified and removed, resulting in 536,641 unique entries. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any 'Blanks' entries.
+Upon initial examination, 5,268 duplicate values were identified and removed, resulting in 536,641 unique entries. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any `Blanks` entries.
 
 ![image](images/missing_values.png)
 
-In our dataset, we've identified missing values in the 'Description' column and the CustomerID column. To remove these, we'll first uncheck the 'Select All' box, and then specifically check the box for 'Blanks.' After clicking 'OK,' we will see rows with missing values displayed. We'll select these rows and proceed to delete them.
+In our dataset, we've identified missing values in the `Description` column and the `CustomerID` column. To remove these, we'll first uncheck the `Select All` box, and then specifically check the box for `Blanks.` After clicking `OK`, we will see rows with missing values displayed. We'll select these rows and proceed to delete them.
 
 ![image](images/unknown_product_name.png)
 
