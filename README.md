@@ -37,5 +37,5 @@ In our dataset, we've identified missing values in the 'Description' column. To 
 
 ![image](images/unknown_product_name.png)
 
-After removing the missing values, sixty-nine observations were identified in the description column that lacked a product name; these were subsequently removed
+After removing the missing values, sixty-nine observations were identified in the description column that lacked a product name; these were subsequently removed along with the missing values in the CustomerId column.
 
