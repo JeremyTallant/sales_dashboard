@@ -29,5 +29,9 @@ The first step in the process involves checking for duplicates. To do this, high
 
 ![image](images/duplicates.png)
 
-Upon initial examination, 5,268 duplicate values were identified and removed, resulting in 536,641 unique entries. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any 'N/A' entries.
+Upon initial examination, 5,268 duplicate values were identified and removed, resulting in 536,641 unique entries. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any 'Blanks' entries.
+
+![image](images/missing_values.png)
+
+In our dataset, we've identified missing values in the 'Description' column. To remove these, we'll first uncheck the 'Select All' box, and then specifically check the box for 'Blanks.' After clicking 'OK,' we will see rows with missing values displayed. We'll select these rows and proceed to delete them.
 
