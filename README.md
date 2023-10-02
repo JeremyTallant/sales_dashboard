@@ -28,3 +28,6 @@ Data Check → Explore Data → Analyze and Visualize Data → Dashboarding → 
 The first step in the process involves checking for duplicates. To do this, highlight all the data, then navigate to the "Data" tab in the menu bar and select the "Remove Duplicates" option.
 
 ![image](images/duplicates.png)
+
+Upon initial examination, 5,268 duplicate values were identified and removed, resulting in 536,641 unique entries. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any 'N/A' entries.
+
