@@ -36,4 +36,9 @@ Upon initial examination, 5,268 duplicate values were identified and removed, re
 In our dataset, missing values have been identified within the `Description` and `CustomerID` columns. To eliminate these, we will first deselect the `Select All` option and then specifically select the checkbox for `Blanks`. Upon clicking `OK`, rows containing missing values will be displayed. We will then select and delete these rows. Following this deletion, 401,605 observations remain in the dataset.
 
 ## Explore Data
-The next step in the workflow is to summarize the data by doing an exploratory analysis. First we start by calculating the total sales of the company. We will create a f
+The subsequent step in the workflow involves summarizing the data through exploratory analysis. We begin by applying conditional formatting to the dataset to visually distinguish between positive and negative quantities. To accomplish this, highlight all the values in the `Quantity` column and navigate to the `Home` ribbon to click on the `Conditional Formatting` button. From there, select `New Rule`.
+
+We will establish two separate rules for this purpose. For the first rule, under `Style`, choose `Classic`, then select `Format only cells that contain`. In the ensuing dialog, set `Cell Value` to `greater than or equal to` and enter `1` as the value. For the format, opt for a green fill complemented by dark green text.
+
+Repeat this process for negative quantities. However, change the criterion from `greater than or equal to` to `less than` and set the value to `0`. The format for these cells should be a light red fill with dark red text.
+
