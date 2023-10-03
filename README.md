@@ -42,3 +42,4 @@ We will establish two separate rules for this purpose. For the first rule, under
 
 Repeat this process for negative quantities. However, change the criterion from `greater than or equal to` to `less than` and set the value to `0`. The format for these cells should be a light red fill with dark red text.
 
+![image](images/conditional_formatting.png)
