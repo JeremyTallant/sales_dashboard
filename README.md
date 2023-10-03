@@ -29,11 +29,11 @@ The first step in the process involves checking for duplicates. To do this, high
 
 ![image](images/duplicates.png)
 
-Upon initial examination, 5,268 duplicate values were identified and removed, resulting in 536,641 unique entries. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any `Blanks` entries.
+Upon initial examination, 5,268 duplicate values were identified and removed, resulting in 536,641 observations. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any `Blanks` entries.
 
 ![image](images/missing_values.png)
 
-In our dataset, missing values have been identified within the Description and CustomerID columns. To eliminate these, we will first deselect the Select All option and then specifically select the checkbox for Blanks. Upon clicking OK, rows containing missing values will be displayed. We will then select and delete these rows. Following this deletion, 401,605 observations remain in the dataset.
+In our dataset, missing values have been identified within the `Description` and `CustomerID` columns. To eliminate these, we will first deselect the `Select All` option and then specifically select the checkbox for `Blanks`. Upon clicking `OK`, rows containing missing values will be displayed. We will then select and delete these rows. Following this deletion, 401,605 observations remain in the dataset.
 
 ## Explore Data
 The next step in the workflow is to summarize the data by doing an exploratory analysis. First we start by calculating the total sales of the company. We will create a f
