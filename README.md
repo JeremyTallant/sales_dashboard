@@ -33,10 +33,7 @@ Upon initial examination, 5,268 duplicate values were identified and removed, re
 
 ![image](images/missing_values.png)
 
-In our dataset, we've identified missing values in the `Description` column and the `CustomerID` column. To remove these, we'll first uncheck the `Select All` box, and then specifically check the box for `Blanks.` After clicking `OK`, we will see rows with missing values displayed. We'll select these rows and proceed to delete them.
-
-![image](images/unknown_product_name.png)
-
+In our dataset, missing values have been identified within the Description and CustomerID columns. To eliminate these, we will first deselect the Select All option and then specifically select the checkbox for Blanks. Upon clicking OK, rows containing missing values will be displayed. We will then select and delete these rows. Following this deletion, 401,605 observations remain in the dataset.
 
 ## Explore Data
 The next step in the workflow is to summarize the data by doing an exploratory analysis. First we start by calculating the total sales of the company. We will create a f
