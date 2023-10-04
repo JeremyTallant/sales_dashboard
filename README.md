@@ -64,4 +64,7 @@ For the total amount of cancelled sales, we will modify the formula to sum all t
 ```excel
 =SUMPRODUCT((Table1[Quantity] <=0) * ABS(Table1[Quantity]),Table1[UnitPrice])
 ```
+![image](images/key_metrics.png)
+
+We observe that there are a total of 4,372 customers. We have recorded 18,536 orders, which includes both completed and cancelled transactions. Within these orders, there are 2,798 distinct products. The total sales amount to $8,887,208.89, with cancelled sales accounting for $608,689.47. 
 
