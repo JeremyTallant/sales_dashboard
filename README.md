@@ -36,7 +36,7 @@ Upon initial examination, 5,268 duplicate values were identified and removed, re
 In our dataset, missing values have been identified within the `Description` and `CustomerID` columns. To eliminate these, we will first deselect the `Select All` option and then select the checkbox for `Blanks`. Upon clicking `OK`, rows containing missing values will be displayed. We will then select and delete these rows. Following this deletion, 401,605 observations remain in the dataset.
 
 ## Explore Data
-The next step in the workflow involves summarizing the data through exploratory analysis. We begin by applying conditional formatting to the dataset to visually distinguish between positive and negative quantities. To accomplish this, highlight all the values in the `Quantity` column and navigate to the `Home` ribbon to click on the `Conditional Formatting` button. From there, select `New Rule`.
+The next step in the workflow involves summarizing the data through exploratory analysis. We begin by applying conditional formatting to the dataset to visually distinguish between positive and negative quantities, where negative quantities represent cancelled orders. To accomplish this, highlight all the values in the `Quantity` column and navigate to the `Home` ribbon to click on the `Conditional Formatting` button. From there, select `New Rule`.
 
 We will establish two separate rules for this purpose. For the first rule, under `Style`, choose `Classic`, then select `Format only cells that contain`. In the ensuing dialog, set `Cell Value` to `greater than or equal to` and enter `1` as the value. For the format, opt for a `Green Fill with Dark Green Text`.
 
@@ -56,4 +56,12 @@ For unique orders, and
 ```excel
 =COUNT(UNIQUE(Table1[StockCode]))
 ```
-For unique products.
+For unique products. Next, we will determine two additional key metrics: total sales and the total amount from cancelled sales. To calculate the total sales, utilize the following formula:
+```excel
+=SUMPRODUCT((Table1[Quantity] >=0) * Table1[Quantity],Table1[UnitPrice])
+```
+For the total amount of cancelled sales, we will modify the formula to sum all the negative quantities. The adjusted formula is:
+```excel
+=SUMPRODUCT((Table1[Quantity] <=0) * ABS(Table1[Quantity]),Table1[UnitPrice])
+```
+
