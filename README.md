@@ -33,10 +33,10 @@ Upon initial examination, 5,268 duplicate values were identified and removed, re
 
 ![image](images/missing_values.png)
 
-In our dataset, missing values have been identified within the `Description` and `CustomerID` columns. To eliminate these, we will first deselect the `Select All` option and then specifically select the checkbox for `Blanks`. Upon clicking `OK`, rows containing missing values will be displayed. We will then select and delete these rows. Following this deletion, 401,605 observations remain in the dataset.
+In our dataset, missing values have been identified within the `Description` and `CustomerID` columns. To eliminate these, we will first deselect the `Select All` option and then select the checkbox for `Blanks`. Upon clicking `OK`, rows containing missing values will be displayed. We will then select and delete these rows. Following this deletion, 401,605 observations remain in the dataset.
 
 ## Explore Data
-The subsequent step in the workflow involves summarizing the data through exploratory analysis. We begin by applying conditional formatting to the dataset to visually distinguish between positive and negative quantities. To accomplish this, highlight all the values in the `Quantity` column and navigate to the `Home` ribbon to click on the `Conditional Formatting` button. From there, select `New Rule`.
+The next step in the workflow involves summarizing the data through exploratory analysis. We begin by applying conditional formatting to the dataset to visually distinguish between positive and negative quantities. To accomplish this, highlight all the values in the `Quantity` column and navigate to the `Home` ribbon to click on the `Conditional Formatting` button. From there, select `New Rule`.
 
 We will establish two separate rules for this purpose. For the first rule, under `Style`, choose `Classic`, then select `Format only cells that contain`. In the ensuing dialog, set `Cell Value` to `greater than or equal to` and enter `1` as the value. For the format, opt for a `Green Fill with Dark Green Text`.
 
@@ -44,7 +44,16 @@ Repeat this process for negative quantities. However, change the criterion from 
 
 ![image](images/conditional_formatting.png)
 
-Now let's create a new worksheet titled `Explore Data` and calculate some key metrics. The first three metrics we will calculate is the total unique customers, total unique orders, and total unique products. We will use the same formula but slightly modified. 
+Now lets create a new worksheet titled Explore Data where we will compute several key metrics. The initial three metrics we'll determine are the total number of unique customers, unique orders, and unique products. While the foundational formula remains consistent across these metrics, slight modifications will be necessary. To count the unique customers, we'll employ the following formula: 
 ```excel
 =COUNT(UNIQUE(Table1[CustomerID]))
 ```
+After using the formula to count unique customers, you can similarly calculate the total number of unique orders and products. To determine the unique orders, modify the column reference to `InvoiceNo`. For unique products, change the column reference to `StockCode`. Thus, the formulas become:
+```excel
+=COUNT(UNIQUE(Table1[InvoiceNo]))
+```
+For unique orders, and
+```excel
+=COUNT(UNIQUE(Table1[StockCode]))
+```
+For unique products.
