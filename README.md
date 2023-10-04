@@ -44,4 +44,7 @@ Repeat this process for negative quantities. However, change the criterion from 
 
 ![image](images/conditional_formatting.png)
 
-Now let's create a new worksheet title `Explore Data` and calculate some key metrics. 
+Now let's create a new worksheet titled `Explore Data` and calculate some key metrics. The first three metrics we will calculate is the total unique customers, total unique orders, and total unique products. We will use the same formula but slightly modified. 
+```excel
+=COUNT(UNIQUE(Table1[CustomerID]))
+```
