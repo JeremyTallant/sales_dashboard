@@ -66,5 +66,5 @@ For the total amount of cancelled sales, we will modify the formula to sum all t
 ```
 ![image](images/key_metrics.png)
 
-We observe that there are a total of 4,372 customers. There are 18,536 orders, which includes both completed and cancelled transactions. Within these orders, there are 2,798 distinct products. The total amount of sales for non-cancelled orders is $8,887,208.89, while the cancelled sales stand at $608,689.47. 
+We can see that there are a total of 4,372 customers. There are 18,536 orders, which includes both completed and cancelled transactions. Within these orders, there are 2,798 distinct products. The total amount of sales for non-cancelled orders is $8,887,208.89, while the cancelled sales stand at $608,689.47. 
 
