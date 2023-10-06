@@ -2,6 +2,34 @@
 ## Project Overview 
 
 ## Data
+The dataset in the `Global_Superstore2.xlsx` file contains a collection of 51,290 orders from a global superstore, covering a time frame from 01/01/2011 to 12/31/2014. The data spans multiple countries and includes information on sales, shipping, and customer details. Each row represents an individual order, and the dataset is comprised of both categorical and numerical columns. A brief description of each column is provided in the table below:
+
+| Column Name    | Description                                             | Data Type      |
+| -------------- | ------------------------------------------------------- | -------------- |
+| Row ID         | Row identification number                               | Numeric        |
+| Order ID       | Identification number of the order                      | Text           |
+| Order Date     | Date when the order was placed                          | Text (Date)    |
+| Ship Date      | Date when the order was shipped                         | Text (Date)    |
+| Ship Mode      | Shipping method used for the order                      | Text           |
+| Customer ID    | Identification number of the customer                   | Text           |
+| Customer Name  | Name of the customer                                    | Text           |
+| Segment        | Customer segment (e.g., Consumer, Corporate, etc.)      | Text           |
+| City           | City where the order was placed                         | Text           |
+| State          | State where the order was placed                        | Text           |
+| Country        | Country where the order was placed                      | Text           |
+| Postal Code    | Postal code of the delivery address (mainly U.S.)       | Numeric        |
+| Market         | Market in which the order was made                      | Text           |
+| Region         | Region where the order was placed                       | Text           |
+| Product ID     | Identification number of the product                    | Text           |
+| Category       | Category of the product                                 | Text           |
+| Sub-Category   | Sub-category of the product                             | Text           |
+| Product Name   | Name of the product                                     | Text           |
+| Sales          | Sales amount for the order                              | Numeric        |
+| Quantity       | Quantity of items ordered                               | Numeric        |
+| Discount       | Discount applied to the order                           | Numeric        |
+| Profit         | Profit made from the order                              | Numeric        |
+| Shipping Cost  | Cost of shipping for the order                          | Numeric        |
+| Order Priority | Priority of the order (e.g., Medium, High, etc.)        | Text           |
 
 
 ## Data Analytics Workflow
