@@ -42,3 +42,10 @@ Our analytical journey will traverse through a well-defined process comprising o
 The first step in the process involves checking for duplicates. To do this, highlight all the data, then navigate to the `Data` tab in the menu bar and select the `Remove Duplicates` option.
 
 ![image](images/removing_duplicates.png)
+
+Upon initial examination, no duplicate values were identified. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any `N/A` entries.
+
+![image](image/missing_values.png)
+
+Since we don't need the postal code for this analysis we will remove this column. 
+
