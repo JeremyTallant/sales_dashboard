@@ -31,7 +31,8 @@ The dataset in the `Global_Superstore2.xlsx` file contains a collection of 51,29
 | Shipping Cost  | Cost of shipping for the order                          | Numeric        |
 | Order Priority | Priority of the order (e.g., Medium, High, etc.)        | Text           |
 
-
+The data was sourced from Kaggle:
+[Download the dataset from Kaggle](https://www.kaggle.com/datasets/apoorvaappz/global-super-store-dataset/data)
 ## Data Analytics Workflow
 
 Our analytical journey will traverse through a well-defined process comprising of the following key steps:
