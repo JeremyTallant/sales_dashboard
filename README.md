@@ -39,4 +39,5 @@ Our analytical journey will traverse through a well-defined process comprising o
 
 `Data Check` → `Explore Data` → `Analyze & Visualize Data` → `Dashboarding` → `Communicate Insights`
 ### Data Check
-
+The first step in the process involves checking for duplicates. To do this, highlight all the data, then navigate to the "Data" tab in the menu bar and select the "Remove Duplicates" option.
+![image](images/removing_duplicates)
