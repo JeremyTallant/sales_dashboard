@@ -45,7 +45,7 @@ The first step in the process involves checking for duplicates. To do this, high
 
 Upon initial examination, no duplicate values were identified. Next, we'll proceed to check for missing values. This can be done by formatting the data into a table and then clicking on each column filter to look for any `N/A` entries.
 
-![image](image/missing_values.png)
+![image](images/missing_values.png)
 
 Since we don't need the postal code for this analysis we will remove this column. 
 
