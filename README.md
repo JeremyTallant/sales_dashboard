@@ -49,7 +49,7 @@ Upon initial examination, no duplicate values were identified. Next, we'll proce
 
 We've identified missing values in the `Postal Code` column. Since we don't need the postal code for this analysis we will proceed to remove this column. 
 ### Explore Data
-The next step in our workflow is to conduct an exploratory data analysis to summarize the data and determine key performance indicators. Begin by creating a new worksheet named `Explore Data`. Given that we're using Excel for Mac, it's essential to set up a `Customer Count` column and a `Order Count` column to get a unique count of all customers and orders when creating a pivot table, which will serve as a key performance indicator (KPI). To do this, add a new column named `Customer Count` and apply the following formula:
+The next step in our workflow is to conduct an exploratory data analysis to summarize the data and determine key performance indicators. Begin by creating a new worksheet named `Explore Data`. Given that we're using Excel for Mac, it's essential to set up a `Customer Count` column and a `Order Count` column to get a unique count of all customers and orders when creating a pivot table, which will serve as a key performance indicators (KPIs). To do this, add a new column named `Customer Count` to the `Raw Data` worksheet and apply the following formula:
 ```excel
 =1/COUNTIF([Customer ID],[@[Customer ID]])
 ```
