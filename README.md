@@ -48,4 +48,6 @@ Upon initial examination, no duplicate values were identified. Next, we'll proce
 ![image](images/missing_values.png)
 
 We've identified missing values in the `Postal Code` column. Since we don't need the postal code for this analysis we will proceed to remove this column. 
+### Explore Data
+The next step in the workflow involves conducting an exploratory data analysis to summarize the data and calculate key performance indicators. 
 
