@@ -57,6 +57,8 @@ Do the same for `Order Count`:
 ```excel
 =1/COUNTIF([Order ID],[@[Order ID]])
 ```
+![image](images/CountColumns.png)
+
 By summing the values in these column within the pivot table, we can determine the unique count of customers and orders. Next, navigate to the `Raw Data` worksheet, select all of its contents, go to the `Insert` tab, and choose the `PivotTable` option. Ensure you place the pivot table in the newly created worksheet.
 
 ![image](images/PivotTable1.png)
