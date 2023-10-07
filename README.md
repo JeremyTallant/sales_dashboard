@@ -49,11 +49,15 @@ Upon initial examination, no duplicate values were identified. Next, we'll proce
 
 We've identified missing values in the `Postal Code` column. Since we don't need the postal code for this analysis we will proceed to remove this column. 
 ### Explore Data
-The next step in our workflow is to conduct an exploratory data analysis to summarize the data and determine key performance indicators. Begin by creating a new worksheet named `Explore Data`. Given that we're using Excel for Mac, it's essential to set up a `Customer Count` column to get a unique count of all customers when creating a pivot table, which will serve as a key performance indicator (KPI). To do this, add a new column named `Customer Count` and apply the following formula:
+The next step in our workflow is to conduct an exploratory data analysis to summarize the data and determine key performance indicators. Begin by creating a new worksheet named `Explore Data`. Given that we're using Excel for Mac, it's essential to set up a `Customer Count` column and a `Order Count` column to get a unique count of all customers and orders when creating a pivot table, which will serve as a key performance indicator (KPI). To do this, add a new column named `Customer Count` and apply the following formula:
 ```excel
 =1/COUNTIF([Customer ID],[@[Customer ID]])
 ```
-By summing the values in this column within the pivot table, we can determine the unique count of customers. Next, navigate to the `Raw Data` worksheet, select all of its contents, go to the `Insert` tab, and choose the `PivotTable` option. Ensure you place the pivot table in the newly created worksheet.
+Do the same for `Order Count`:
+```excel
+=1/COUNTIF([Order ID],[@[Order ID]])
+```
+By summing the values in these column within the pivot table, we can determine the unique count of customers and orders. Next, navigate to the `Raw Data` worksheet, select all of its contents, go to the `Insert` tab, and choose the `PivotTable` option. Ensure you place the pivot table in the newly created worksheet.
 
 ![image](images/PivotTable1.png)
 
