@@ -51,5 +51,5 @@ We've identified missing values in the `Postal Code` column. Since we don't need
 ### Explore Data
 The next step in our workflow is to conduct an exploratory data analysis to summarize the data and determine key performance indicators. Begin by creating a new worksheet named Explore Data. Next, navigate to the Raw Data, select all of its contents, go to the Insert tab, and choose the PivotTable option. Ensure you place the pivot table in the newly created worksheet.
 
-
+![image](images/PivotTable1.png)
 
