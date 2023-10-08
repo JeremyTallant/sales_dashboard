@@ -63,7 +63,14 @@ Do the same for `Distinct Order Count`:
 ```
 ![image](images/distinct.png)
 
-By summing the values in these column within the pivot table, we can determine the unique count of customers and orders. Next, navigate to the `Raw Data` worksheet, select all of its contents, go to the `Insert` tab, and choose the `PivotTable` option. Ensure you place the pivot table in the newly created worksheet.
+By summing the values in these column within the pivot table, we can determine the unique count of customers and orders. Next, let's add an `Order Year` column adjacent to the `Order Date` column. This will allow us to filter our pivot table by year. We can do extract the year from the order date using this formula:
+```excel
+=YEAR([@[Order Date]])
+```
+
+![image](images/OrderYear.png)
+
+Next, navigate to the `Raw Data` worksheet, select all of its contents, go to the `Insert` tab, and choose the `PivotTable` option. Ensure you place the pivot table in the newly created worksheet.
 
 ![image](images/PivotTable1.png)
 
