@@ -39,7 +39,7 @@ Our analytical journey will traverse through a well-defined process comprising o
 
 `Data Check` → `Explore Data` → `Analyze & Visualize Data` → `Dashboarding` → `Communicate Insights`
 ### Data Check
-Begin by converting the `Order Date` and `Ship Date` columns to the `Date` data type. To do this, select both columns and choose `Date` from the dropdown menu in the `Home` ribbon." 
+Begin by converting the `Order Date` and `Ship Date` columns to the `Date` data type. To do this, select both columns and choose `Date` from the dropdown menu in the `Home` ribbon. 
 
 ![image](images/DateType.png)
 
@@ -53,15 +53,15 @@ Upon initial examination, no duplicate values were identified. Next, we'll proce
 
 We've identified missing values in the `Postal Code` column. Since we don't need the postal code for this analysis we will proceed to remove this column. 
 ### Explore Data
-The next step in our workflow is to conduct an exploratory data analysis to summarize the data and determine key performance indicators. Begin by creating a new worksheet named `Explore Data`. Given that we're using Excel for Mac, it's essential to set up a `Customer Count` column and a `Order Count` column to get a unique count of all customers and orders when creating a pivot table, which will serve as a key performance indicators (KPIs). To do this, add a new column named `Customer Count` to the `Raw Data` worksheet and apply the following formula:
+The next step in our workflow is to conduct an exploratory data analysis to summarize the data and determine key performance indicators. Begin by creating a new worksheet named `Explore Data`. Given that we're using Excel for Mac, it's essential to set up a `Distinct Customer Count` column and a `Distinct Order Count` column to get a unique count of all customers and orders when creating a pivot table, which will serve as a key performance indicators (KPIs). To do this, add a new column named `Distinct Customer Count` to the `Raw Data` worksheet and apply the following formula:
 ```excel
-=1/COUNTIF([Customer ID],[@[Customer ID]])
+=IF(COUNTIF($G$2:G2,G2)>1,0,1)
 ```
-Do the same for `Order Count`:
+Do the same for `Distinct Order Count`:
 ```excel
-=1/COUNTIF([Order ID],[@[Order ID]])
+=IF(COUNTIF($B$2:B2,B2)>1,0,1)
 ```
-![image](images/CountColumns.png)
+![image](images/distinct.png)
 
 By summing the values in these column within the pivot table, we can determine the unique count of customers and orders. Next, navigate to the `Raw Data` worksheet, select all of its contents, go to the `Insert` tab, and choose the `PivotTable` option. Ensure you place the pivot table in the newly created worksheet.
 
@@ -70,3 +70,4 @@ By summing the values in these column within the pivot table, we can determine t
 In the `Values` section of the PivotTable, drag the columns `Sales`, `Profit`, `Customer Count`, and `Order Count`. Format the sums of both Sales and Profit as `Currency`. Meanwhile, ensure the sums of Customer Count and Order Count are formatted as `Numbers`, rounded to the nearest whole number.
 
 ![image](images/KPIs.png)
+
