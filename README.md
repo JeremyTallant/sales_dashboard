@@ -63,7 +63,7 @@ Do the same for `Distinct Order Count`:
 ```
 ![image](images/distinct.png)
 
-By summing the values in these column within the pivot table, we can determine the unique count of customers and orders. Next, let's add an `Order Year` column adjacent to the `Order Date` column. This will allow us to filter our pivot table by year. We can extract the year from the order date using this formula:
+By summing the values in these column within the pivot table, we can determine the unique count of customers and orders. Next, let's add an `Order Year` column adjacent to the `Order Date` column. This will allow us to filter our pivot table by year. We can extract the year from the `Order Date` column using this formula:
 ```excel
 =YEAR([@[Order Date]])
 ```
