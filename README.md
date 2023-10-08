@@ -74,7 +74,7 @@ Next, navigate to the `Raw Data` worksheet, select all of its contents, go to th
 
 ![image](images/PivotTable1.png)
 
-In the `Values` section of the PivotTable, drag the columns `Sales`, `Profit`, `Distinct Customer Count`, and `Distinct Order Count`. Format the sums of both Sales and Profit as `Currency`. Meanwhile, ensure the sums of Customer Count and Order Count are formatted as `Numbers`, rounded to the nearest whole number.
+In the `Values` section of the PivotTable, drag the columns `Sales`, `Profit`, `Distinct Customer Count`, and `Distinct Order Count`. Place the `Order Year` in the `Filters` section.  Format the sums of both Sales and Profit as `Currency`. Meanwhile, ensure the sums of Customer Count and Order Count are formatted as `Numbers`, rounded to the nearest whole number.
 
 ![image](images/KPIs.png)
 
