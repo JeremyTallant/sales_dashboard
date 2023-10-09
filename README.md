@@ -79,4 +79,4 @@ In the `Values` section of the PivotTable, drag the columns `Sales`, `Profit`, `
 ![image](images/KPIs.png)
 
 ### Analyze & Visualize Data
-The next step in the workflow involves choosing the right visualizations to convey a message and perform a more advanced analysis. First let's start by creating a new worksheet titled `Analyze & Visualize Data`.
+The next step in the workflow entails selecting appropriate visualizations to effectively convey a message and conduct a more advanced analysis. Initially, create a new worksheet and title it `Analyze & Visualize Data`. Following this, navigate to the `Raw Data` worksheet, highlight all the data, then proceed to the `Insert` tab. Click on `PivotChart` and add it to the `Analyze & Visualize Data` worksheet.
