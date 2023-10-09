@@ -85,4 +85,6 @@ The next step in the workflow entails selecting appropriate visualizations to ef
 
 Now, drag the `Sales` and `Profit` columns to the `Values` section. Move the `Order Month` column to the `Axis` section and the `Order Year` column to the `Filters` section. Format the Sum of Sales and Sum of Profit to the `Currency` data type, and alter the chart to a combination of a bar and line graph, referred to as a combo chart.
 
-![image](images/ComboChart.png) 
+![image](images/ComboChart.png)
+
+Next, let's create a PivotChart depicting the top ten sales figures by country, filtered by year. First, navigate back to the `Raw Data` worksheet and highlight the data. Then, click on `PivotTable` and add the PivotTable to the `Analyze & Visualize Data` worksheet. Drag the `Sales` field to the `Values` section, the `Country` field to the `Rows` section, and the `Order Year` field to the `Filters` section. Once the PivotTable is created, right-click on the countries, navigate to `Filter`, and select to filter for the top 10 sales. Sort the sales figures from largest to smallest.  
