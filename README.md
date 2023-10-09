@@ -90,3 +90,7 @@ Now, drag the `Sales` and `Profit` columns to the `Values` section. Move the `Or
 Next, let's create a PivotChart depicting the top ten sales figures by country, filtered by year. First, navigate back to the `Raw Data` worksheet and highlight the data. Then, click on `PivotChart` and add the Pivotchart to the `Analyze & Visualize Data` worksheet. Drag the `Sales` field to the `Values` section, the `Country` field to the `Rows` section, and the `Order Year` field to the `Filters` section. Once the Pivotchart is created, right-click on the countries, navigate to `Filter`, and select to filter for the top 10 sales. Sort the sales figures from largest to smallest. 
 
 ![image](images/Top10SalesCountry.png) 
+
+Now, let's repeat the same process for profit.
+
+![image](images/Top10ProfitCountry.png)
