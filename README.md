@@ -82,3 +82,5 @@ In the `Values` section of the PivotTable, drag the columns `Sales`, `Profit`, `
 The next step in the workflow entails selecting appropriate visualizations to effectively convey a message and conduct a more advanced analysis. Initially, create a new worksheet and title it `Analyze & Visualize Data`. Following this, navigate to the `Raw Data` worksheet, highlight all the data, then proceed to the `Insert` tab. Click on `PivotChart` and add it to the `Analyze & Visualize Data` worksheet.
 
 ![image](images/PivotChart1.png)
+
+Now, drag the `Sales` and `Profit` columns to the `Values` section. Move the `Order Month` column to the `Axis` section and the `Order Year` column to the `Filters` section. Format the Sum of Sales and Sum of Profit to the `Currency` data type, and alter the chart to a combination of a bar and line graph, referred to as a combo chart. 
