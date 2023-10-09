@@ -78,3 +78,5 @@ In the `Values` section of the PivotTable, drag the columns `Sales`, `Profit`, `
 
 ![image](images/KPIs.png)
 
+### Analyze & Visualize Data
+The next step in the workflow involves choosing the right visualizations to convey a message and perform a more advanced analysis. First let's start by creating a new worksheet titled `Analyze & Visualize Data`.
