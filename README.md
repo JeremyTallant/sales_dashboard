@@ -124,3 +124,5 @@ Given the constraints encountered while utilizing Excel on a Mac, we'll sort the
 This structured approach will organize the necessary data, setting the stage for the creation of a visually informative map for our dashboard.
 
 ![image](images/MapTable.png)
+
+Now, highlight all the countries with total sales exceeding $20,000. Subsequently, navigate to the `Insert` tab, click on `Maps`, and select the map option. Remove the chart title and legend, and format the map to display a gray background. 
