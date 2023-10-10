@@ -95,4 +95,12 @@ Now, let's repeat the same process for profit.
 
 ![image](images/Top10ProfitCountry.png)
 
-Next, we will create three pivot tables: one for the top 10 selling products (by total sales amount), another for the top 10 selling products (by total sales volume), and a third for the top 10 customers. To accomplish this, navigate to the `Raw Data` worksheet and highlight all the data. Select `PivotTable` and add it to the `Analyze & Visualize Data` worksheet. Drag the `Sales` column to the `Values` field and the `Product Name` column to the `Rows` field. Right-click on the `Product Name` in the table, filter for the top 10 products, and sort them from largest to smallest. 
+Next, we will create three pivot tables: one for the top 10 selling products (by total sales amount), another for the top 10 selling products (by total sales volume), and a third for the top 10 customers. To accomplish this, navigate to the `Raw Data` worksheet and highlight all the data. Select `PivotTable` and add it to the `Analyze & Visualize Data` worksheet. Drag the `Sales` column to the `Values` field and the `Product Name` column to the `Rows` field. Right-click on the `Product Name` in the table, filter for the top 10 products, and sort them from largest to smallest.
+
+![image](images/Top10Products.png)
+
+Repeat the process for identifying the top 10 selling products by total sales volume, but this time, drag the `Quantity` column to the `Values` field instead. 
+
+![image](images/Top10ProductVolume.png)
+
+For the top 10 customers, repeat the process but place the `Customer Name` column in the `Rows` field and the `Sales` column in the `Values` field.
