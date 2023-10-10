@@ -94,3 +94,5 @@ Next, let's create a PivotChart depicting the top ten sales figures by country, 
 Now, let's repeat the same process for profit.
 
 ![image](images/Top10ProfitCountry.png)
+
+Next, we will create three pivot tables: one for the top 10 selling products (by total sales amount), another for the top 10 selling products (by total sales volume), and a third for the top 10 customers. To accomplish this, navigate to the `Raw Data` worksheet and highlight all the data. Select `PivotTable` and add it to the `Analyze & Visualize Data` worksheet. Drag the `Sales` column to the `Values` field and the `Product Name` column to the `Rows` field. Right-click on the `Product Name` in the table, filter for the top 10 products, and sort them from largest to smallest. 
