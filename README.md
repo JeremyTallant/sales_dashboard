@@ -122,3 +122,5 @@ Given the constraints encountered while utilizing Excel on a Mac, we'll sort the
 =SORT(A2:B148, 2, -1)
 ```
 This structured approach will organize the necessary data, setting the stage for the creation of a visually informative map for our dashboard.
+
+![image](images/MapTable.png)
