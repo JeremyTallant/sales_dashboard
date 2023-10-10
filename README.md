@@ -126,3 +126,6 @@ This structured approach will organize the necessary data, setting the stage for
 ![image](images/MapTable.png)
 
 Now, highlight all the countries with total sales exceeding $20,000. Subsequently, navigate to the `Insert` tab, click on `Maps`, and select the map option. Remove the chart title and legend, and format the map to display a gray background. 
+
+![image](images/Map.png)
+### Dashboarding
