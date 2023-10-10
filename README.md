@@ -104,3 +104,5 @@ Repeat the process for identifying the top 10 selling products by total sales vo
 ![image](images/Top10ProductVolume.png)
 
 For the top 10 customers, repeat the process but place the `Customer Name` column in the `Rows` field and the `Sales` column in the `Values` field.
+
+![image](images/Top10Customers.png)
