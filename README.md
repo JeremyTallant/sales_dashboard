@@ -8,8 +8,8 @@ The dataset in the `Global_Superstore2.xlsx` file contains a collection of 51,29
 | -------------- | ------------------------------------------------------- | -------------- |
 | Row ID         | Row identification number                               | Numeric        |
 | Order ID       | Identification number of the order                      | Text           |
-| Order Date     | Date when the order was placed                          | Text (Date)    |
-| Ship Date      | Date when the order was shipped                         | Text (Date)    |
+| Order Date     | Date when the order was placed                          | Date           |
+| Ship Date      | Date when the order was shipped                         | Date           |
 | Ship Mode      | Shipping method used for the order                      | Text           |
 | Customer ID    | Identification number of the customer                   | Text           |
 | Customer Name  | Name of the customer                                    | Text           |
