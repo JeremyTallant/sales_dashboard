@@ -129,6 +129,6 @@ Now, highlight all the countries with total sales exceeding $20,000. Subsequentl
 
 ![image](images/Map.png)
 ### Dashboarding
-Now, we move on to creating the dashboard and consolidating all the visualizations we have crafted. First, let's start by creating a new worksheet titled `Dashboard` and removing the gridlines.
+Now, we move on to creating the dashboard and consolidating all the visualizations we have crafted. First, let's start by creating a new worksheet titled `Dashboard` and draw border boxes to strategize the layout of our dashboard.
 
 ![image](images/EmptyDashboard.png)
