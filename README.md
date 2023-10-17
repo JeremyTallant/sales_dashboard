@@ -107,27 +107,6 @@ For the top 10 customers, repeat the process but place the `Customer Name` colum
 
 ![image](images/Top10Customers.png)
 
-Let us proceed to create a map for our dashboard to depict the total sales by country. Initially, establish a new sheet titled `Map`, and structure two columns labeled `Country` and `Total Sales`.
-
-Firstly, compose a formula to extract the unique country names:
-```excel 
-=UNIQUE(Table2[Country])
-```
-Then right a formula to get the total sales for each country:
-```excel
-=SUMIFS(Table2[Sales],Table2[Country],Map!A2)
-``` 
-Given the constraints encountered while utilizing Excel on a Mac, we'll sort these countries and focus solely on those with sales exceeding $20,000 for the map visualization. Execute the following formula to sort the countries:
-```exel
-=SORT(A2:B148, 2, -1)
-```
-This structured approach will organize the necessary data, setting the stage for the creation of a visually informative map for our dashboard.
-
-![image](images/MapTable.png)
-
-Now, highlight all the countries with total sales exceeding $20,000. Subsequently, navigate to the `Insert` tab, click on `Maps`, and select the map option. Remove the chart title and legend, and format the map to display a gray background. 
-
-![image](images/Map.png)
 ### Dashboarding
 Now, we move on to creating the dashboard and consolidating all the visualizations we have crafted. First, let's start by creating a new worksheet titled `Dashboard` and draw border boxes to strategize the layout of our dashboard.
 
