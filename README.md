@@ -110,4 +110,4 @@ For the top 10 customers, repeat the process but place the `Customer Name` colum
 ### Dashboarding
 Now, we move on to creating the dashboard and consolidating all the visualizations we have crafted. First, let's start by creating a new worksheet titled `Dashboard` and draw border boxes to strategize the layout of our dashboard.
 
-![image](images/EmptyDashboard.png)
+![image](images/Dashboard_Outline.png)
