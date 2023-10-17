@@ -124,5 +124,9 @@ And for the `Top 10 Customers By Sales`.
 
 ![image](images/PivotTableDash3.png)
 
+Next, we'll craft cards within each border box by adding a rectangular shape with rounded edges and setting the background color to white.
+
+![image](images/Cards.png)
+
 
 
