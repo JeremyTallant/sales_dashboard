@@ -111,3 +111,7 @@ For the top 10 customers, repeat the process but place the `Customer Name` colum
 Now, we move on to creating the dashboard and consolidating all the visualizations we have crafted. First, let's start by creating a new worksheet titled `Dashboard` and draw border boxes to strategize the layout of our dashboard.
 
 ![image](images/Dashboard_Outline.png)
+
+Then we will incorporate the three pivot tables at the base of the dashboard. Initially, we'll establish cell references for the pivot table highlighting the "Top 10 Selling Products (By Total Sales Amount)." Subsequently, we will insert "Product Name" and "Sales" above their respective cells. Finally, we'll format the sales figures to display in currency format.
+
+![image](PivotTableDash1.png)
