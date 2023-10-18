@@ -112,21 +112,5 @@ Now, we move on to creating the dashboard and consolidating all the visualizatio
 
 ![image](images/Dashboard_Outline.png)
 
-Then we will incorporate the three pivot tables at the base of the dashboard. Initially, we'll establish cell references for the pivot table highlighting the `Top 10 Selling Products (By Total Sales Amount)`. Subsequently, we will insert `Product Name` and `Sales` above their respective cells. Finally, we'll format the sales figures to display in currency format.
-
-![image](images/PivotTableDash1.png)
-
-Now do the same thing for the `Top 10 Selling Products (By Total Sales Volume)`.
-
-![image](images/PivotTableDash2.png)
-
-And for the `Top 10 Customers By Sales`.
-
-![image](images/PivotTableDash3.png)
-
-Next, we'll craft cards within each border box by adding a rectangular shape with rounded edges and setting the background color to white.
-
-![image](images/Cards.png)
-
 
 
