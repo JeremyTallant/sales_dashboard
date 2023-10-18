@@ -116,4 +116,6 @@ Next, we will place a rounded rectangle inside each border box and fill it with 
 
 ![image](images/Cards.png)
 
+Next, proceed to eliminate the grid lines, set the background color to `Blue, Accent 1, Lighter 80%`, and change the fill color of the left card to `Blue, Accent 1, Darker 25%`.
 
+![image](images/FillColor.png)
