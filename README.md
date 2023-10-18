@@ -112,5 +112,8 @@ Now, we move on to creating the dashboard and consolidating all the visualizatio
 
 ![image](images/Dashboard_Outline.png)
 
+Next, we will place a rounded rectangle inside each border box and fill it with the color white.
+
+![image](images/Cards.png)
 
 
