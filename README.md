@@ -120,6 +120,10 @@ Then, proceed to eliminate the grid lines, set the background color to `Blue, Ac
 
 ![image](images/FillColor.png)
 
-Now, let's add a title to the dashboard and incorporate a logo. Additionally, we should assign titles to the cards that will display our KPIs and pivot table.
+Now, let's add a title to the dashboard and incorporate a logo. Additionally, we should assign titles to the cards that will display our KPIs and pivot tables.
 
 ![image](images/Titles.png)
+
+Next, we will insert text boxes within the cards to display KPIs and pivot tables. We will utilize cell references to populate the dashboard with the relevant data. Change format of data to be consistent with the rest of the dashboard.
+
+![image](images/CellReferences.png)
