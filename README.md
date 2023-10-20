@@ -1,4 +1,5 @@
 # Online Retail Sales Dashboard in Excel
+![image](images/Dashboard.png)
 ## Project Overview 
 The primary objective of this project is to conduct an exploratory analysis of the Global Superstore dataset, which comprises data on sales, customers, and shipping details from multiple countries. Our goal is to uncover insights, trends, and patterns that can assist in making informed business decisions. The findings will be showcased in an interactive dashboard, facilitating easy exploration and interpretation of the data.
 ## Data
@@ -134,4 +135,8 @@ Next, copy the three Pivot charts we've created and paste them into the dashboar
 
 For the final step, add two slicers to the dashboard: one for the year and another for the segment. To do this, navigate to the `Explore Data` worksheet and click on the pivot table. Then, proceed to the `PivotTable Analyze` section and select `Insert Slicer`. Create slicers for `Order Year` and `Segment`. Next, right-click on each slicer, go to `Report Connections`, and establish a connection to each pivot table in the dashboard. Finally, copy the slicers and paste them into the dashboard.
 
-![image](images/Slicers.png) 
+![image](images/Slicers.png)
+
+After some formatting adjustments, we have now achieved the final product.
+
+![image](images/Dashboard.png)
