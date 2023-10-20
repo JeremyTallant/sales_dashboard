@@ -127,3 +127,7 @@ Now, let's add a title to the dashboard and incorporate a logo. Additionally, we
 Next, we will insert text boxes within the cards to display KPIs and pivot tables. We will utilize cell references to populate the dashboard with the relevant data. Change the format of the data to be consistent with the rest of the dashboard.
 
 ![image](images/CellReferences.png)
+
+Next, copy the three Pivot charts we've created and paste them into the dashboard, ensuring they are formatted to match the dashboard's existing style.
+
+![image](images/DashboardCharts.png)
