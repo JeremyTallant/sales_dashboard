@@ -140,4 +140,4 @@ For the final step, add two slicers to the dashboard: one for the year and anoth
 After some formatting adjustments, we have now achieved the final product.
 
 ![image](images/Dashboard2.png)
-## Comunicate Insights 
+## Communicate Insights
