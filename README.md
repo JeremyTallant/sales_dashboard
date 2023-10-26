@@ -141,3 +141,4 @@ After some formatting adjustments, we have now achieved the final product.
 
 ![image](images/Dashboard2.png)
 ## Communicate Insights
+Now for the must important step in the whole process, Communicating the insights to stakeholders. 
