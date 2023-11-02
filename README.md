@@ -143,3 +143,8 @@ After some formatting adjustments, we have now achieved the final product.
 ## Communicate Insights
 Now for the must important step in the whole process, communicating the insights to stakeholders. First let's see what questions can be answered from the dashboard.
 * Are sales trending up over the years?
+* Are customers trending up over the years?
+* What segment brings in the most sales?
+* Who is our top customer in each segment?
+* What is our top item in sales?
+* What is our top item in volume?
