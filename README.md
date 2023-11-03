@@ -148,3 +148,5 @@ Now for the must important step in the whole process, communicating the insights
 * Who is our top customer in each segment?
 * What is our top item in sales?
 * What is our top item in volume?
+
+This dashboard gives good insights on how the business is performing overall and how each segment is performing over time. 
