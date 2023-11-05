@@ -142,11 +142,12 @@ After some formatting adjustments, we have now achieved the final product.
 ![image](images/Dashboard2.png)
 ## Communicate Insights
 Now for the must important step in the whole process, communicating the insights to stakeholders. First let's see what questions can be answered from the dashboard.
-* Are sales trending up over the years?
-* Are customers trending up over the years?
-* What segment brings in the most sales?
-* Who is our top customer in each segment?
-* What is our top item in sales?
-* What is our top item in volume?
+* Are sales trending up over the years? Sales for all segments have been growing at an average rate of 24%.
+* Are customers trending up over the years? Total customers have been growing at an average rate of 28%. 
+* What is the average annual rate of profits growing each year? The average annual rate of profits are going at 26%. 
+* What segment brings in the most sales? The top segment is the Consumer division bringing in total sales of $6,507,949 over the four year time period.
+* Who is our top customer in each segment? The top customer in the Consumer division is Greg Tran with $35,550.95 in sales. The Corporate division is Tamra Chan bringing in $37,457.33 in sales. And the home office division is Tom Ashbrook bring in $40,488.07. 
+* What is our top item in sales? The top item in sales is the Apple Smart Phone, Full Size bringing in $86,935.78.
+* What is our top item in volume? The top item in sales volume is Staples with 876. 
 
 This dashboard gives good insights on how the business is performing overall and how each segment is performing over time. We can learn many things from this dashboard.
