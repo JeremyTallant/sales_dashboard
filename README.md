@@ -1,4 +1,4 @@
-# Online Retail Sales Dashboard in Excel
+# Global Superstore Sales Dashboard in Excel
 ![image](images/Dashboard.png)
 ## Project Overview 
 The primary objective of this project is to conduct an exploratory analysis of the Global Superstore dataset, which comprises data on sales, customers, and shipping details from multiple countries. Our goal is to uncover insights, trends, and patterns that can assist in making informed business decisions. The findings will be showcased in an interactive dashboard, facilitating easy exploration and interpretation of the data.
