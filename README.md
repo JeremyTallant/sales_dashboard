@@ -141,13 +141,56 @@ After some formatting adjustments, we have now achieved the final product.
 
 ![image](images/Dashboard2.png)
 ## Communicate Insights
-Now for the must important step in the whole process, communicating the insights to stakeholders. First let's see what questions can be answered from the dashboard.
-* Are sales trending up over the years? Sales for all segments have been growing at an average rate of 24%.
-* Are customers trending up over the years? Total customers have been growing at an average rate of 28%. 
-* What is the average annual rate of profits growing each year? The average annual rate of profits are going at 26%. 
-* What segment brings in the most sales? The top segment is the Consumer division bringing in total sales of $6,507,949 over the four year time period.
-* Who is our top customer in each segment? The top customer in the Consumer division is Greg Tran with $35,550.95 in sales. The Corporate division is Tamra Chan bringing in $37,457.33 in sales. And the home office division is Tom Ashbrook bring in $40,488.07. 
-* What is our top item in sales? The top item in sales is the Apple Smart Phone, Full Size bringing in $86,935.78.
-* What is our top item in volume? The top item in sales volume is Staples with 876. 
+Now for the must important step in the whole process, communicating the insights to stakeholders. The following key insights have been discerned from the dashboard, which helps in answering pivotal business questions:
 
-This dashboard gives good insights on how the business is performing overall and how each segment is performing over time. We can learn many things from this dashboard.
+1. **Sales Trends**: There has been a notable upward trend in sales across all segments, with an average growth rate of 24% annually. This consistent rise indicates a healthy expansion in the company's market reach and product acceptance.
+
+2. **Customer Growth**: The customer base has been expanding at an average annual rate of 28%, suggesting effective marketing strategies and a growing brand presence.
+
+3. **Profitability**: Profits have been increasing at an average annual rate of 26%, reflective of robust business operations and effective cost management.
+
+4. **Segment Performance**: The Consumer division emerges as the most significant contributor to sales, amassing a total of $6,507,949 over the assessed four-year period. This segment should continue to receive targeted investment to maintain and enhance its market-leading position.
+
+5. **Top Customers**: In identifying the top customers within each division - Greg Tran in the Consumer division ($35,550.95), Tamra Chan in the Corporate division ($37,457.33), and Tom Ashbrook in the Home Office division ($40,488.07) - we highlight the value of nurturing these relationships to ensure continued loyalty and business.
+
+6. **Leading Products by Sales**: The Apple Smart Phone, Full Size, has generated the highest sales, with a total of $86,935.78. This product's success can offer insights into consumer preferences and inform inventory and marketing strategies.
+
+7. **Leading Products by Volume**: Staples, with a sales volume of 876 units, lead in quantity sold. The high turnover of this item suggests it is a staple good with consistent demand, and stocking such items can ensure steady revenue streams.
+
+The dashboard serves as a comprehensive tool that not only tracks performance metrics across multiple dimensions but also informs strategic decision-making. It is an indispensable resource for understanding the nuances of the business trajectory, identifying strengths to build upon, and revealing opportunities for improvement.
+
+### Recommendations for Business Growth and Customer Loyalty: 
+
+Insights Communication
+The following key insights have been discerned from the data dashboard, which helps in answering pivotal business questions:
+
+Sales Trends: There has been a notable upward trend in sales across all segments, with an average growth rate of 24% annually. This consistent rise indicates a healthy expansion in the company's market reach and product acceptance.
+
+Customer Growth: The customer base has been expanding at an average annual rate of 28%, suggesting effective marketing strategies and a growing brand presence.
+
+Profitability: Profits have been increasing at an average annual rate of 26%, reflective of robust business operations and effective cost management.
+
+Segment Performance: The Consumer division emerges as the most significant contributor to sales, amassing a total of $6,507,949 over the assessed four-year period. This segment should continue to receive targeted investment to maintain and enhance its market-leading position.
+
+Top Customers: In identifying the top customers within each division - Greg Tran in the Consumer division ($35,550.95), Tamra Chan in the Corporate division ($37,457.33), and Tom Ashbrook in the Home Office division ($40,488.07) - we highlight the value of nurturing these relationships to ensure continued loyalty and business.
+
+Leading Products by Sales: The Apple Smart Phone, Full Size, has generated the highest sales, with a total of $86,935.78. This product's success can offer insights into consumer preferences and inform inventory and marketing strategies.
+
+Leading Products by Volume: Staples, with a sales volume of 876 units, lead in quantity sold. The high turnover of this item suggests it is a staple good with consistent demand, and stocking such items can ensure steady revenue streams.
+
+The dashboard serves as a comprehensive tool that not only tracks performance metrics across multiple dimensions but also informs strategic decision-making. It is an indispensable resource for understanding the nuances of the business trajectory, identifying strengths to build upon, and revealing opportunities for improvement.
+
+### Recommendations for Business Growth and Customer Loyalty:
+1. **Segment-Specific Strategies**: Considering the significant sales in the Consumer division, strategies should be tailored to maintain dominance in this segment while exploring untapped potential in the Corporate and Home Office divisions.
+
+2. **Product Focus**: The popularity of the Apple Smart Phone suggests a focus on technology and related products could be advantageous. Bundling products and creating cross-selling opportunities with accessories may further boost sales.
+
+3. **Customer Relationship Management (CRM)**: The identification of top customers in each segment underscores the importance of a personalized CRM approach to retain key clients and enhance loyalty.
+
+4. **Inventory Management**: The high volume of staple items like Staples suggests the need for an efficient inventory management system to avoid stockouts and maximize turnover.
+
+5. **Market Analysis**: Ongoing market analysis can identify emerging trends, enabling the business to stay ahead of the curve and adjust inventory and marketing efforts accordingly.
+
+6. **Customer Feedback**: Actively seeking and analyzing customer feedback can reveal areas for improvement in product offerings and customer service, encouraging repeat business and referrals.
+
+In conclusion, the dashboard reveals a thriving business environment with ample opportunities for further growth. Strategic focus on high-performing segments, coupled with informed product selection and dedicated CRM, will aid in amplifying sales, profits, and customer loyalty.
